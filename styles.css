@@ -25,10 +25,14 @@
 
 /* ramin */
 
+*{
+    box-sizing: border-box;
+}
+
 .bg-image {
     width: 100%;
     min-height: 60vh;
-    background-image: linear-gradient(100deg,#08244A 0%,#08244A70 100%), url(img/school-bg.png);
+    background-image: linear-gradient(100deg,#08244A 0%,#08244A70 100%), url('img/school-bg.png');
     background-position: center;
     background-size: cover; 
 }
@@ -44,7 +48,7 @@
 .text {
     color: #fff;
     font-family: tbc-contractica,Sans-serif;
-    font-size: 14px;
+    font-size: 1.2em;
     font-weight: 300;
     line-height: 1.5em;
 }
@@ -55,13 +59,19 @@
 }
 
 
-@media(max-width: 768px) {
+@media(max-width: 768px) {                   
     .bg-image {
-        width: 500px;
-        height: 400px;
+         /* width: 500px; */ 
+        height: 470px;
     }
+
+    .textdiv {
+        padding-top: 0;
+    }
+
+
     .text {
-        font-size: 12px;
+        font-size: 1em;
         text-align: center;
         
     }
@@ -72,7 +82,7 @@
     }
 
     .text2{
-        font-size: 18px;
+        font-size: 1.5em;
         text-align: center;
 
     }
@@ -83,12 +93,11 @@
 
     }
 
-    .button {
-        margin-left: 150px;                 
-    }
-
-    
-    
+      .button {
+         margin-left: 70px;  
+         
+                      
+    }    
 
     
 }
@@ -103,15 +112,15 @@
     background-color: #fff ;
     padding: 12px 35px 10px;
     border: none ;
+    transition: 0.5s;
+    border: 1px solid #fff;
+
 }
 
 .button:hover {
     background-color: transparent;
-    border: 1px solid #fff;
-    transition: 0.5s;
     color: #fff;
-    
-     
+    overflow: hidden;
 }
 
 /* news ani */
