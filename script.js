@@ -27,4 +27,3 @@ videoThird.addEventListener("click", () => {
     main.src = third_video.src;
     third_video.src = memorysrc;
 })
-
