@@ -1,0 +1,137 @@
+.slider-effect {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.293);
+}
+
+.footer-bck-color {
+    background-color: #0274be;
+}
+
+.logo-size {
+    width: 150px;
+}
+.bar-blue {
+    height: 8px !important;
+}
+.news {
+    color: rgb(12, 112, 145);
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0 20px 0;
+}
+
+/* ramin */
+
+.bg-image {
+    width: 100%;
+    min-height: 60vh;
+    background-image: linear-gradient(100deg,#08244A 0%,#08244A70 100%), url(img/school-bg.png);
+    background-position: center;
+    background-size: cover; 
+}
+
+.line {
+    width: 5%;
+    height: 2px;
+    background: rgb(194, 191, 191);
+    display: block;
+}
+
+
+.text {
+    color: #fff;
+    font-family: tbc-contractica,Sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5em;
+}
+
+.text2 {
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+
+@media(max-width: 768px) {
+    .bg-image {
+        width: 500px;
+        height: 400px;
+    }
+    .text {
+        font-size: 12px;
+        text-align: center;
+        
+    }
+
+    .text1 {
+
+        text-align: center;
+    }
+
+    .text2{
+        font-size: 18px;
+        text-align: center;
+
+    }
+
+    .line {
+        width: 5%;
+        margin: 0 auto;
+
+    }
+
+    .button {
+        margin-left: 150px;                 
+    }
+
+    
+    
+
+    
+}
+
+.button {
+    width: 140px;
+    font-family: tbc-contractica-caps,Sans-serif;
+    font-size: .9em ;
+    font-weight: bold;
+    fill: #1c375b;
+    color: #1c375b ;
+    background-color: #fff ;
+    padding: 12px 35px 10px;
+    border: none ;
+}
+
+.button:hover {
+    background-color: transparent;
+    border: 1px solid #fff;
+    transition: 0.5s;
+    color: #fff;
+    
+     
+}
+
+/* news ani */
+
+
+.newsheadings{
+    font-size: 5vw;
+    font-weight: 700;
+    color: #1c375b;
+
+}
+.card-body{
+    color: #1c375b;
+}
+.card-body h5{
+    font-size: 1.5em;
+
+}
+.card-body p{
+    margin-top: 20px;
+    font-size: 1.0em;
+}
+
